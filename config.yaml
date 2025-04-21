@@ -1,0 +1,17 @@
+baseurl: /
+languageCode: en-US
+title: A Hugo website
+theme: anatole
+menu:
+  main:
+    - name: About
+      url: /about/
+    - name: GitHub
+      url: https://github.com/rstudio/blogdown
+    - name: Twitter
+      url: https://twitter.com/rstudio
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
